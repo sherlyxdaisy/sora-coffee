@@ -1,0 +1,5 @@
+/* Super simple optional stylesheet (only 10 lines!) */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: #F0F9FF; /* Soft pastel baby blue */
+}
