@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sora Coffee</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,500&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: #FAF7F2;
+      color: #2C241E;
+    }
+    h1, h2, h3, .font-serif-display {
+      font-family: 'Cormorant Garamond', serif;
+    }
+  </style>
+</head>
+<body class="antialiased selection:bg-[#D4A373]/30">
+
+  <!-- Top Bar -->
+  <header class="border-b border-[#E6DFD5] bg-[#FAF7F2]">
+    <div class="max-w-5xl mx-auto px-6 py-5 flex items-center justify-between">
+      <span class="text-2xl font-serif-display font-bold tracking-wide text-[#2C241E]">
+        SORA <span class="text-[#8C6239] font-normal italic">Coffee</span>
+      </span>
+      <span class="text-xs font-semibold uppercase tracking-widest text-[#8C6239]">
+        3 Minutes from Shimokitazawa Station
+      </span>
+    </div>
+  </header>
+
+  <!-- 1. Hero & Problem -->
+  <section class="py-16 md:py-24 px-6">
+    <div class="max-w-4xl mx-auto text-center">
+      <h1 class="text-4xl sm:text-6xl font-bold leading-tight text-[#2C241E] mb-6">
+        Find Your Calm Before the <span class="italic text-[#8C6239]">Tokyo Rush</span> Begins.
+      </h1>
+      <p class="max-w-2xl mx-auto text-lg sm:text-xl text-[#5C4D42] leading-relaxed mb-12">
+        Tired of loud cafes and rushed mornings? Step out of Shimokitazawa Station and take a 3-minute walk to Sora Coffee.
+      </p>
+      <div class="rounded-3xl overflow-hidden shadow-md border border-[#E6DFD5]">
+        <img src="cafe-interior.jpg" alt="Cozy cafe interior with soft morning light" class="w-full h-72 sm:h-[420px] object-cover" />
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. One Morning at Sora Coffee -->
+  <section class="py-20 px-6 bg-[#F2ECE1] border-y border-[#E6DFD5]">
+    <div class="max-w-5xl mx-auto">
+      <div class="text-center max-w-2xl mx-auto mb-14">
+        <p class="text-xs font-semibold uppercase tracking-widest text-[#8C6239] mb-3">Your Morning</p>
+        <h2 class="text-3xl sm:text-5xl font-bold text-[#2C241E]">
+          One Morning at Sora Coffee
+        </h2>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Step 1 -->
+        <div class="bg-[#FAF7F2] p-8 rounded-2xl border border-[#E6DFD5] shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="w-9 h-9 mb-5 rounded-full bg-[#2C241E] text-[#FAF7F2] flex items-center justify-center text-sm font-bold">1</div>
+            <h3 class="text-2xl font-bold mb-3 text-[#2C241E]">3-Minute Walk</h3>
+            <p class="text-sm text-[#5C4D42] leading-relaxed">
+              Start with the 3-minute walk from Shimokitazawa Station to Sora Coffee, open 8:00 to 18:00, closed Wednesdays.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="bg-[#FAF7F2] rounded-2xl border border-[#E6DFD5] shadow-sm overflow-hidden flex flex-col">
+          <img src="cafe-counter.jpg" alt="Sora Coffee counter" class="w-full h-48 object-cover" />
+          <div class="p-8 flex-1">
+            <div class="w-9 h-9 mb-4 rounded-full bg-[#2C241E] text-[#FAF7F2] flex items-center justify-center text-sm font-bold">2</div>
+            <h3 class="text-2xl font-bold mb-3 text-[#2C241E]">At the Counter</h3>
+            <p class="text-sm text-[#5C4D42] leading-relaxed">
+              Walk up to the counter and choose a drink or slice for your morning stop.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="bg-[#FAF7F2] rounded-2xl border border-[#E6DFD5] shadow-sm overflow-hidden flex flex-col">
+          <img src="coffee-cup.jpg" alt="A plain cup of coffee served on a wooden table" class="w-full h-48 object-cover" />
+          <div class="p-8 flex-1">
+            <div class="w-9 h-9 mb-4 rounded-full bg-[#2C241E] text-[#FAF7F2] flex items-center justify-center text-sm font-bold">3</div>
+            <h3 class="text-2xl font-bold mb-3 text-[#2C241E]">Your First Cup</h3>
+            <p class="text-sm text-[#5C4D42] leading-relaxed">
+              Take a seat inside and enjoy your first cup in a quiet space.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Menu -->
+  <section class="py-20 px-6">
+    <div class="max-w-3xl mx-auto">
+      <div class="text-center mb-12">
+        <p class="text-xs font-semibold uppercase tracking-widest text-[#8C6239] mb-3">Sora Coffee</p>
+        <h2 class="text-3xl sm:text-5xl font-bold text-[#2C241E]">Menu</h2>
+      </div>
+      <div class="divide-y divide-[#E6DFD5] border-y border-[#E6DFD5]">
+        <div class="py-5 flex items-center justify-between">
+          <span class="text-xl font-serif-display font-bold text-[#2C241E]">Drip Coffee</span>
+          <span class="font-semibold text-[#8C6239]">&yen;550</span>
+        </div>
+        <div class="py-5 flex items-center justify-between">
+          <span class="text-xl font-serif-display font-bold text-[#2C241E]">Latte</span>
+          <span class="font-semibold text-[#8C6239]">&yen;650</span>
+        </div>
+        <div class="py-5 flex items-center justify-between">
+          <span class="text-xl font-serif-display font-bold text-[#2C241E]">Matcha Latte</span>
+          <span class="font-semibold text-[#8C6239]">&yen;700</span>
+        </div>
+        <div class="py-5 flex items-center justify-between">
+          <span class="text-xl font-serif-display font-bold text-[#2C241E]">Cheesecake</span>
+          <span class="font-semibold text-[#8C6239]">&yen;600</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Visit Sora Coffee -->
+  <section class="py-20 px-6 bg-[#2C241E] text-[#FAF7F2]">
+    <div class="max-w-3xl mx-auto text-center">
+      <p class="text-xs font-semibold uppercase tracking-widest text-[#D4A373] mb-3">Visit Us</p>
+      <h2 class="text-3xl sm:text-5xl font-bold mb-6">
+        Visit Sora Coffee
+      </h2>
+      <p class="text-lg text-[#D6CEC2] leading-relaxed mb-8">
+        Come visit Sora Coffee, 3 minutes from Shimokitazawa Station. Open 8:00 to 18:00, closed Wednesdays.
+      </p>
+      <div class="inline-block px-8 py-3.5 rounded-full bg-[#D4A373] text-[#2C241E] font-semibold text-sm">
+        contact@soracoffee.tokyo
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
